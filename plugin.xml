@@ -4,8 +4,8 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation='http://plugin.powerschool.pearson.com plugin.xsd'
 		name="PowerTools"
-		version="3.1.0"
-		description="PowerSchool diagnostic reports">
+		version="3.2.2"
+		description="The PowerTools diagnostic utility">
 
 	<publisher name="David Pond">
 		<contact email="powertoolsforpowerschool@gmail.com" />
