@@ -1,0 +1,19 @@
+{
+  "name": "powertools",
+  "version": "3.2.2",
+  "description": "The PowerTools diagnostic utility",
+  "main": "",
+  "scripts": {
+    "test": "mocha-casperjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronCountySchoolDistrict/notifications.git"
+  },
+  "author": "IronCountySchoolDistrict",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IronCountySchoolDistrict/notifications/issues"
+  },
+  "homepage": "https://github.com/IronCountySchoolDistrict/notifications#readme"
+}

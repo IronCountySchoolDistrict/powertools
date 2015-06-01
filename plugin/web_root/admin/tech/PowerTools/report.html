@@ -6,7 +6,7 @@
   ~[wc:commonscripts]
   <link href="/images/css/screen.css" rel="stylesheet" media="screen">
   <link href="/images/css/print.css" rel="stylesheet" media="print">
-  <link href="/images/css/PowerTools.css" rel="stylesheet">
+  <link href="<!-- @echo IMAGE_SERVER_URL -->/scripts/powertools/css/PowerTools.css" rel="stylesheet">
   <!--[if IE]><style>
     #reportInfo, #wizardLink {
       margin-left: 20px;
@@ -19,7 +19,7 @@
   <script src="/scripts/yui/2.7.0/datasource/datasource-min.js"></script>
   <script src="/scripts/yui/2.7.0/datatable/datatable-min.js"></script>
   <script src="/scripts/yui/2.7.0/json/json-min.js"></script>
-  <script type="text/javascript" src="js/PowerToolsLib.js"></script>
+  <script type="text/javascript" src="<!-- @echo IMAGE_SERVER_URL -->/scripts/powertools/js/PowerToolsLib.js"></script>
   <script type="text/javascript">
     var dataOptions = {
       "maxLines": "~(gpv.maxlines)",
@@ -33,7 +33,7 @@
       "userid": "~[x:userid]"
     };
   </script>
-  <script src="js/report.js"></script>
+  <script src="<!-- @echo IMAGE_SERVER_URL -->/scripts/powertools/js/report.js"></script>
 </head>
 <body class="yui-skin-sam">
   ~[wc:admin_header_frame_css]
