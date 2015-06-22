@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!-- start right frame -->
+<head>
+  <title>PowerTools Student Report</title>
+  ~[wc:commonscripts]
+  <link href="/images/css/screen.css" rel="stylesheet" media="screen">
+  <link href="/images/css/print.css" rel="stylesheet" media="print">
+  <link href="/images/css/PowerTools.css" rel="stylesheet">
+  <!--[if IE]>
+  <style>
+    #reportInfo, #wizardLink {
+      margin-left: 20px;
+    }
+  </style>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="<!-- @echo IMAGE_SERVER_URL -->/powertools/ext/yui/paginator/assets/skins/sam/paginator.css">
+  <link rel="stylesheet" type="text/css" href="<!-- @echo IMAGE_SERVER_URL -->/powertools/ext/yui/datatable/assets/skins/sam/datatable.css">
+  <script src="<!-- @echo IMAGE_SERVER_URL -->/powertools/ext/yui/utilities/utilities.js"></script>
+  <script src="<!-- @echo IMAGE_SERVER_URL -->/powertools/ext/yui/paginator/paginator-min.js"></script>
+  <script src="<!-- @echo IMAGE_SERVER_URL -->/powertools/ext/yui/datasource/datasource-min.js"></script>
+  <script src="<!-- @echo IMAGE_SERVER_URL -->/powertools/ext/yui/datatable/datatable-min.js"></script>
+  <script src="<!-- @echo IMAGE_SERVER_URL -->/powertools/ext/yui/json/json-min.js"></script>
+  <script src="<!-- @echo IMAGE_SERVER_URL -->/powertools/js/PowerTools.js"></script>
+</head>
+
+<body class="yui-skin-sam">
+
+ ~[wc:admin_header_frame_css]<!-- breadcrumb start --><a href="/admin/home.html" target="_top">~[text:psx.html.admin_students.activities.start_page]</a>
+    &gt; <a href="home.html?selectstudent=nosearch" target="_top">~[text:psx.html.admin_students.activities.student_selection]</a>
+    &gt;PowerTools Student Report<!-- breadcrumb end -->~[wc:admin_navigation_frame_css]
+
+    ~[wc:title_student_begin_css]PowerTools Student Report~[wc:title_student_end_css]
+
+    <!-- start of content and bounding box -->
+    <div class="box-round">
+      <div id="reportInfo"></div>
+
+      <div id="wizardLink"></div>
+
+      <div id="top_container" style="text-align:center;"></div>
+
+      <div id="paginated"></div>
+
+      <br>
+
+      <p id="bottom_container" style="text-align:center"></p>
+    </div>
+    <br>
+    <!-- end of content of bounding box -->
+
+    ~[wc:admin_footer_frame_css]
+</body>
+</html><!-- end right frame -->
