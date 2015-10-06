@@ -178,7 +178,7 @@ var powerTools = {
     });
     $j('#bcReportName,#top_container,#bottom_container,h1').html(null);
     $j('#ptHomeLink,title').text('PowerTools');
-    $j('#reportInfo').html('/images/powertools/PowerTools.gif" alt= "If you are seeing this message, the ' +
+    $j('#reportInfo').html('<img src="/images/powertools/PowerTools.gif" alt= "If you are seeing this message, the ' +
       'images for PowerTools are not properly loaded. Although PowerTools will function properly without the ' +
       'images, it is recommended to install the images in order to enjoy the full PowerTools experience, based on ' +
       'the installation instructions on PowerSource." id="logo">');
